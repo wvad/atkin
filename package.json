@@ -1,0 +1,25 @@
+{
+  "name": "atkin",
+  "version": "0.1.11",
+  "description": "sieve of atkin",
+  "main": "index.js",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^4.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kage-sakura/atkin"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "keywords": [
+    "atkin",
+    "prime",
+    "prime-numbers"
+  ],
+  "author": "kage-sakura",
+  "license": "MIT",
+  "gypfile": true
+}
